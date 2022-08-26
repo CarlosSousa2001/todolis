@@ -1,0 +1,984 @@
+0 verbose cli D:\Program Files\nodejs\node.exe C:\Users\CarlosS\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@8.14.0
+2 info using node@v14.17.0
+3 timing npm:load:whichnode Completed in 0ms
+4 timing config:load:defaults Completed in 3ms
+5 timing config:load:file:C:\Users\CarlosS\AppData\Roaming\npm\node_modules\npm\npmrc Completed in 11ms
+6 timing config:load:builtin Completed in 12ms
+7 timing config:load:cli Completed in 2ms
+8 timing config:load:env Completed in 2ms
+9 timing config:load:file:C:\Users\CarlosS\Desktop\AtividadeTeste\to-do-list\.npmrc Completed in 1ms
+10 timing config:load:project Completed in 3ms
+11 timing config:load:file:C:\Users\CarlosS\.npmrc Completed in 1ms
+12 timing config:load:user Completed in 1ms
+13 timing config:load:file:C:\Users\CarlosS\AppData\Roaming\npm\etc\npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:validate Completed in 1ms
+16 timing config:load:credentials Completed in 2ms
+17 timing config:load:setEnvs Completed in 1ms
+18 timing config:load Completed in 27ms
+19 timing npm:load:configload Completed in 27ms
+20 timing npm:load:mkdirpcache Completed in 2ms
+21 timing npm:load:mkdirplogs Completed in 0ms
+22 verbose title npm i express cors
+23 verbose argv "i" "express" "cors"
+24 timing npm:load:setTitle Completed in 3ms
+25 timing config:load:flatten Completed in 5ms
+26 timing npm:load:display Completed in 7ms
+27 verbose logfile logs-max:10 dir:C:\Users\CarlosS\Desktop\AtividadeTeste\to-do-list\tmpnodejsnpm-cache\_logs
+28 verbose logfile C:\Users\CarlosS\Desktop\AtividadeTeste\to-do-list\tmpnodejsnpm-cache\_logs\2022-08-26T16_45_15_307Z-debug-0.log
+29 timing npm:load:logFile Completed in 9ms
+30 timing npm:load:timers Completed in 0ms
+31 timing npm:load:configScope Completed in 0ms
+32 timing npm:load Completed in 51ms
+33 timing arborist:ctor Completed in 1ms
+34 silly logfile done cleaning log files
+35 timing idealTree:init Completed in 116ms
+36 timing idealTree:userRequests Completed in 5ms
+37 silly idealTree buildDeps
+38 silly fetch manifest express@*
+39 timing arborist:ctor Completed in 0ms
+40 http fetch GET 200 https://registry.npmjs.org/express 574ms (cache miss)
+41 silly fetch manifest cors@*
+42 http fetch GET 200 https://registry.npmjs.org/cors 126ms (cache miss)
+43 silly placeDep ROOT cors@2.8.5 OK for: to-do-list@1.0.0 want: *
+44 silly placeDep ROOT express@4.18.1 OK for: to-do-list@1.0.0 want: *
+45 silly fetch manifest object-assign@^4
+46 silly fetch manifest vary@^1
+47 silly fetch manifest accepts@~1.3.8
+48 silly fetch manifest array-flatten@1.1.1
+49 silly fetch manifest body-parser@1.20.0
+50 silly fetch manifest content-disposition@0.5.4
+51 silly fetch manifest content-type@~1.0.4
+52 silly fetch manifest cookie@0.5.0
+53 silly fetch manifest cookie-signature@1.0.6
+54 silly fetch manifest debug@2.6.9
+55 silly fetch manifest depd@2.0.0
+56 silly fetch manifest encodeurl@~1.0.2
+57 silly fetch manifest escape-html@~1.0.3
+58 silly fetch manifest etag@~1.8.1
+59 silly fetch manifest finalhandler@1.2.0
+60 silly fetch manifest fresh@0.5.2
+61 silly fetch manifest http-errors@2.0.0
+62 silly fetch manifest merge-descriptors@1.0.1
+63 silly fetch manifest methods@~1.1.2
+64 silly fetch manifest on-finished@2.4.1
+65 silly fetch manifest parseurl@~1.3.3
+66 silly fetch manifest path-to-regexp@0.1.7
+67 silly fetch manifest proxy-addr@~2.0.7
+68 silly fetch manifest qs@6.10.3
+69 silly fetch manifest range-parser@~1.2.1
+70 silly fetch manifest safe-buffer@5.2.1
+71 silly fetch manifest send@0.18.0
+72 silly fetch manifest serve-static@1.15.0
+73 silly fetch manifest setprototypeof@1.2.0
+74 silly fetch manifest statuses@2.0.1
+75 silly fetch manifest type-is@~1.6.18
+76 silly fetch manifest utils-merge@1.0.1
+77 silly fetch manifest vary@~1.1.2
+78 http fetch GET 200 https://registry.npmjs.org/object-assign 200ms (cache miss)
+79 http fetch GET 200 https://registry.npmjs.org/fresh 442ms (cache miss)
+80 http fetch GET 200 https://registry.npmjs.org/content-type 463ms (cache miss)
+81 http fetch GET 200 https://registry.npmjs.org/cookie-signature 504ms (cache miss)
+82 http fetch GET 200 https://registry.npmjs.org/etag 516ms (cache miss)
+83 http fetch GET 200 https://registry.npmjs.org/depd 522ms (cache miss)
+84 http fetch GET 200 https://registry.npmjs.org/escape-html 526ms (cache miss)
+85 http fetch GET 200 https://registry.npmjs.org/content-disposition 554ms (cache miss)
+86 http fetch GET 200 https://registry.npmjs.org/encodeurl 548ms (cache miss)
+87 http fetch GET 200 https://registry.npmjs.org/range-parser 561ms (cache miss)
+88 http fetch GET 200 https://registry.npmjs.org/methods 581ms (cache miss)
+89 http fetch GET 200 https://registry.npmjs.org/parseurl 583ms (cache miss)
+90 http fetch GET 200 https://registry.npmjs.org/merge-descriptors 589ms (cache miss)
+91 http fetch GET 200 https://registry.npmjs.org/finalhandler 599ms (cache miss)
+92 http fetch GET 200 https://registry.npmjs.org/on-finished 593ms (cache miss)
+93 http fetch GET 200 https://registry.npmjs.org/http-errors 611ms (cache miss)
+94 http fetch GET 200 https://registry.npmjs.org/cookie 625ms (cache miss)
+95 http fetch GET 200 https://registry.npmjs.org/setprototypeof 608ms (cache miss)
+96 http fetch GET 200 https://registry.npmjs.org/vary 653ms (cache miss)
+97 http fetch GET 200 https://registry.npmjs.org/utils-merge 607ms (cache miss)
+98 http fetch GET 200 https://registry.npmjs.org/vary 611ms (cache miss)
+99 http fetch GET 200 https://registry.npmjs.org/accepts 675ms (cache miss)
+100 http fetch GET 200 https://registry.npmjs.org/statuses 634ms (cache miss)
+101 http fetch GET 200 https://registry.npmjs.org/safe-buffer 652ms (cache miss)
+102 http fetch GET 200 https://registry.npmjs.org/send 651ms (cache miss)
+103 http fetch GET 200 https://registry.npmjs.org/array-flatten 697ms (cache miss)
+104 http fetch GET 200 https://registry.npmjs.org/proxy-addr 670ms (cache miss)
+105 http fetch GET 200 https://registry.npmjs.org/type-is 666ms (cache miss)
+106 http fetch GET 200 https://registry.npmjs.org/path-to-regexp 684ms (cache miss)
+107 http fetch GET 200 https://registry.npmjs.org/debug 703ms (cache miss)
+108 http fetch GET 200 https://registry.npmjs.org/body-parser 718ms (cache miss)
+109 http fetch GET 200 https://registry.npmjs.org/serve-static 719ms (cache miss)
+110 http fetch GET 200 https://registry.npmjs.org/qs 745ms (cache miss)
+111 timing idealTree:#root Completed in 1508ms
+112 silly placeDep ROOT object-assign@4.1.1 OK for: cors@2.8.5 want: ^4
+113 silly placeDep ROOT vary@1.1.2 OK for: cors@2.8.5 want: ^1
+114 timing idealTree:node_modules/cors Completed in 8ms
+115 silly placeDep ROOT accepts@1.3.8 OK for: express@4.18.1 want: ~1.3.8
+116 silly placeDep ROOT array-flatten@1.1.1 OK for: express@4.18.1 want: 1.1.1
+117 silly placeDep ROOT body-parser@1.20.0 OK for: express@4.18.1 want: 1.20.0
+118 silly placeDep ROOT content-disposition@0.5.4 OK for: express@4.18.1 want: 0.5.4
+119 silly placeDep ROOT content-type@1.0.4 OK for: express@4.18.1 want: ~1.0.4
+120 silly placeDep ROOT cookie@0.5.0 OK for: express@4.18.1 want: 0.5.0
+121 silly placeDep ROOT cookie-signature@1.0.6 OK for: express@4.18.1 want: 1.0.6
+122 silly placeDep ROOT debug@2.6.9 OK for: express@4.18.1 want: 2.6.9
+123 silly placeDep ROOT depd@2.0.0 OK for: express@4.18.1 want: 2.0.0
+124 silly placeDep ROOT encodeurl@1.0.2 OK for: express@4.18.1 want: ~1.0.2
+125 silly placeDep ROOT escape-html@1.0.3 OK for: express@4.18.1 want: ~1.0.3
+126 silly placeDep ROOT etag@1.8.1 OK for: express@4.18.1 want: ~1.8.1
+127 silly placeDep ROOT finalhandler@1.2.0 OK for: express@4.18.1 want: 1.2.0
+128 silly placeDep ROOT fresh@0.5.2 OK for: express@4.18.1 want: 0.5.2
+129 silly placeDep ROOT http-errors@2.0.0 OK for: express@4.18.1 want: 2.0.0
+130 silly placeDep ROOT merge-descriptors@1.0.1 OK for: express@4.18.1 want: 1.0.1
+131 silly placeDep ROOT methods@1.1.2 OK for: express@4.18.1 want: ~1.1.2
+132 silly placeDep ROOT on-finished@2.4.1 OK for: express@4.18.1 want: 2.4.1
+133 silly placeDep ROOT parseurl@1.3.3 OK for: express@4.18.1 want: ~1.3.3
+134 silly placeDep ROOT path-to-regexp@0.1.7 OK for: express@4.18.1 want: 0.1.7
+135 silly placeDep ROOT proxy-addr@2.0.7 OK for: express@4.18.1 want: ~2.0.7
+136 silly placeDep ROOT qs@6.10.3 OK for: express@4.18.1 want: 6.10.3
+137 silly placeDep ROOT range-parser@1.2.1 OK for: express@4.18.1 want: ~1.2.1
+138 silly placeDep ROOT safe-buffer@5.2.1 OK for: express@4.18.1 want: 5.2.1
+139 silly placeDep ROOT send@0.18.0 OK for: express@4.18.1 want: 0.18.0
+140 silly placeDep ROOT serve-static@1.15.0 OK for: express@4.18.1 want: 1.15.0
+141 silly placeDep ROOT setprototypeof@1.2.0 OK for: express@4.18.1 want: 1.2.0
+142 silly placeDep ROOT statuses@2.0.1 OK for: express@4.18.1 want: 2.0.1
+143 silly placeDep ROOT type-is@1.6.18 OK for: express@4.18.1 want: ~1.6.18
+144 silly placeDep ROOT utils-merge@1.0.1 OK for: express@4.18.1 want: 1.0.1
+145 silly fetch manifest mime-types@~2.1.34
+146 silly fetch manifest negotiator@0.6.3
+147 silly fetch manifest bytes@3.1.2
+148 silly fetch manifest destroy@1.2.0
+149 silly fetch manifest iconv-lite@0.4.24
+150 silly fetch manifest raw-body@2.5.1
+151 silly fetch manifest unpipe@1.0.0
+152 silly fetch manifest ms@2.0.0
+153 silly fetch manifest unpipe@~1.0.0
+154 silly fetch manifest toidentifier@1.0.1
+155 silly fetch manifest ee-first@1.1.1
+156 silly fetch manifest forwarded@0.2.0
+157 silly fetch manifest ipaddr.js@1.9.1
+158 silly fetch manifest side-channel@^1.0.4
+159 silly fetch manifest mime@1.6.0
+160 silly fetch manifest ms@2.1.3
+161 silly fetch manifest media-typer@0.3.0
+162 silly fetch manifest mime-types@~2.1.24
+163 http fetch GET 200 https://registry.npmjs.org/destroy 200ms (cache miss)
+164 http fetch GET 200 https://registry.npmjs.org/raw-body 312ms (cache miss)
+165 http fetch GET 200 https://registry.npmjs.org/bytes 338ms (cache miss)
+166 http fetch GET 200 https://registry.npmjs.org/ee-first 342ms (cache miss)
+167 http fetch GET 200 https://registry.npmjs.org/mime-types 434ms (cache miss)
+168 http fetch GET 200 https://registry.npmjs.org/forwarded 368ms (cache miss)
+169 http fetch GET 200 https://registry.npmjs.org/toidentifier 384ms (cache miss)
+170 http fetch GET 200 https://registry.npmjs.org/mime 376ms (cache miss)
+171 http fetch GET 200 https://registry.npmjs.org/ms 433ms (cache miss)
+172 http fetch GET 200 https://registry.npmjs.org/side-channel 389ms (cache miss)
+173 http fetch GET 200 https://registry.npmjs.org/media-typer 390ms (cache miss)
+174 http fetch GET 200 https://registry.npmjs.org/unpipe 455ms (cache miss)
+175 http fetch GET 200 https://registry.npmjs.org/negotiator 474ms (cache miss)
+176 http fetch GET 200 https://registry.npmjs.org/mime-types 384ms (cache miss)
+177 http fetch GET 200 https://registry.npmjs.org/ms 401ms (cache miss)
+178 http fetch GET 200 https://registry.npmjs.org/unpipe 459ms (cache miss)
+179 http fetch GET 200 https://registry.npmjs.org/iconv-lite 475ms (cache miss)
+180 http fetch GET 200 https://registry.npmjs.org/ipaddr.js 451ms (cache miss)
+181 timing idealTree:node_modules/express Completed in 729ms
+182 silly placeDep ROOT mime-types@2.1.35 OK for: accepts@1.3.8 want: ~2.1.34
+183 silly placeDep ROOT negotiator@0.6.3 OK for: accepts@1.3.8 want: 0.6.3
+184 silly fetch manifest mime-db@1.52.0
+185 http fetch GET 200 https://registry.npmjs.org/mime-db 101ms (cache miss)
+186 timing idealTree:node_modules/accepts Completed in 121ms
+187 timing idealTree:node_modules/array-flatten Completed in 1ms
+188 silly placeDep ROOT bytes@3.1.2 OK for: body-parser@1.20.0 want: 3.1.2
+189 silly placeDep ROOT destroy@1.2.0 OK for: body-parser@1.20.0 want: 1.2.0
+190 silly placeDep ROOT iconv-lite@0.4.24 OK for: body-parser@1.20.0 want: 0.4.24
+191 silly placeDep ROOT raw-body@2.5.1 OK for: body-parser@1.20.0 want: 2.5.1
+192 silly placeDep ROOT unpipe@1.0.0 OK for: body-parser@1.20.0 want: 1.0.0
+193 silly fetch manifest safer-buffer@>= 2.1.2 < 3
+194 http fetch GET 200 https://registry.npmjs.org/safer-buffer 82ms (cache miss)
+195 timing idealTree:node_modules/body-parser Completed in 94ms
+196 timing idealTree:node_modules/bytes Completed in 0ms
+197 timing idealTree:node_modules/content-disposition Completed in 0ms
+198 timing idealTree:node_modules/content-type Completed in 0ms
+199 timing idealTree:node_modules/cookie Completed in 0ms
+200 timing idealTree:node_modules/cookie-signature Completed in 0ms
+201 silly placeDep ROOT ms@2.0.0 OK for: debug@2.6.9 want: 2.0.0
+202 timing idealTree:node_modules/debug Completed in 2ms
+203 timing idealTree:node_modules/depd Completed in 0ms
+204 timing idealTree:node_modules/destroy Completed in 0ms
+205 timing idealTree:node_modules/encodeurl Completed in 0ms
+206 timing idealTree:node_modules/escape-html Completed in 0ms
+207 timing idealTree:node_modules/etag Completed in 0ms
+208 timing idealTree:node_modules/finalhandler Completed in 0ms
+209 timing idealTree:node_modules/fresh Completed in 0ms
+210 silly placeDep ROOT toidentifier@1.0.1 OK for: http-errors@2.0.0 want: 1.0.1
+211 timing idealTree:node_modules/http-errors Completed in 2ms
+212 silly placeDep ROOT safer-buffer@2.1.2 OK for: iconv-lite@0.4.24 want: >= 2.1.2 < 3
+213 timing idealTree:node_modules/iconv-lite Completed in 2ms
+214 timing idealTree:node_modules/merge-descriptors Completed in 0ms
+215 timing idealTree:node_modules/methods Completed in 0ms
+216 silly placeDep ROOT mime-db@1.52.0 OK for: mime-types@2.1.35 want: 1.52.0
+217 timing idealTree:node_modules/mime-types Completed in 5ms
+218 timing idealTree:node_modules/mime-db Completed in 0ms
+219 timing idealTree:node_modules/ms Completed in 0ms
+220 timing idealTree:node_modules/negotiator Completed in 0ms
+221 timing idealTree:node_modules/object-assign Completed in 0ms
+222 silly placeDep ROOT ee-first@1.1.1 OK for: on-finished@2.4.1 want: 1.1.1
+223 timing idealTree:node_modules/on-finished Completed in 2ms
+224 timing idealTree:node_modules/ee-first Completed in 0ms
+225 timing idealTree:node_modules/parseurl Completed in 0ms
+226 timing idealTree:node_modules/path-to-regexp Completed in 0ms
+227 silly placeDep ROOT forwarded@0.2.0 OK for: proxy-addr@2.0.7 want: 0.2.0
+228 silly placeDep ROOT ipaddr.js@1.9.1 OK for: proxy-addr@2.0.7 want: 1.9.1
+229 timing idealTree:node_modules/proxy-addr Completed in 3ms
+230 timing idealTree:node_modules/forwarded Completed in 0ms
+231 timing idealTree:node_modules/ipaddr.js Completed in 0ms
+232 silly placeDep ROOT side-channel@1.0.4 OK for: qs@6.10.3 want: ^1.0.4
+233 silly fetch manifest call-bind@^1.0.0
+234 silly fetch manifest get-intrinsic@^1.0.2
+235 silly fetch manifest object-inspect@^1.9.0
+236 http fetch GET 200 https://registry.npmjs.org/call-bind 86ms (cache miss)
+237 http fetch GET 200 https://registry.npmjs.org/object-inspect 94ms (cache miss)
+238 http fetch GET 200 https://registry.npmjs.org/get-intrinsic 130ms (cache miss)
+239 timing idealTree:node_modules/qs Completed in 136ms
+240 timing idealTree:node_modules/range-parser Completed in 0ms
+241 timing idealTree:node_modules/raw-body Completed in 0ms
+242 timing idealTree:node_modules/safe-buffer Completed in 0ms
+243 timing idealTree:node_modules/safer-buffer Completed in 0ms
+244 silly placeDep ROOT mime@1.6.0 OK for: send@0.18.0 want: 1.6.0
+245 silly placeDep node_modules/send ms@2.1.3 OK for: send@0.18.0 want: 2.1.3
+246 timing idealTree:node_modules/send Completed in 9ms
+247 timing idealTree:node_modules/mime Completed in 0ms
+248 timing idealTree:node_modules/serve-static Completed in 0ms
+249 timing idealTree:node_modules/setprototypeof Completed in 0ms
+250 silly placeDep ROOT call-bind@1.0.2 OK for: side-channel@1.0.4 want: ^1.0.0
+251 silly placeDep ROOT get-intrinsic@1.1.2 OK for: side-channel@1.0.4 want: ^1.0.2
+252 silly placeDep ROOT object-inspect@1.12.2 OK for: side-channel@1.0.4 want: ^1.9.0
+253 silly fetch manifest has-symbols@^1.0.3
+254 http fetch GET 200 https://registry.npmjs.org/has-symbols 134ms (cache miss)
+255 timing idealTree:node_modules/side-channel Completed in 147ms
+256 timing idealTree:node_modules/call-bind Completed in 0ms
+257 silly placeDep ROOT has-symbols@1.0.3 OK for: get-intrinsic@1.1.2 want: ^1.0.3
+258 timing idealTree:node_modules/get-intrinsic Completed in 2ms
+259 timing idealTree:node_modules/has-symbols Completed in 0ms
+260 timing idealTree:node_modules/object-inspect Completed in 0ms
+261 timing idealTree:node_modules/statuses Completed in 1ms
+262 timing idealTree:node_modules/toidentifier Completed in 0ms
+263 silly placeDep ROOT media-typer@0.3.0 OK for: type-is@1.6.18 want: 0.3.0
+264 timing idealTree:node_modules/type-is Completed in 2ms
+265 timing idealTree:node_modules/media-typer Completed in 0ms
+266 timing idealTree:node_modules/unpipe Completed in 0ms
+267 timing idealTree:node_modules/utils-merge Completed in 0ms
+268 timing idealTree:node_modules/vary Completed in 0ms
+269 timing idealTree:node_modules/send/node_modules/ms Completed in 0ms
+270 timing idealTree:buildDeps Completed in 2786ms
+271 timing idealTree:fixDepFlags Completed in 7ms
+272 timing idealTree Completed in 2917ms
+273 timing reify:loadTrees Completed in 2919ms
+274 timing reify:diffTrees Completed in 5ms
+275 silly reify mark retired [
+275 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\@cspotcode\\source-map-support'
+275 silly reify ]
+276 silly reify mark retired [
+276 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\@jridgewell\\resolve-uri'
+276 silly reify ]
+277 silly reify mark retired [
+277 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\@jridgewell\\sourcemap-codec'
+277 silly reify ]
+278 silly reify mark retired [
+278 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\@jridgewell\\trace-mapping'
+278 silly reify ]
+279 silly reify mark retired [
+279 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\@tsconfig\\node10'
+279 silly reify ]
+280 silly reify mark retired [
+280 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\@tsconfig\\node12'
+280 silly reify ]
+281 silly reify mark retired [
+281 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\@tsconfig\\node14'
+281 silly reify ]
+282 silly reify mark retired [
+282 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\@tsconfig\\node16'
+282 silly reify ]
+283 silly reify mark retired [
+283 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\@types\\node'
+283 silly reify ]
+284 silly reify mark retired [
+284 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\@types\\strip-bom'
+284 silly reify ]
+285 silly reify mark retired [
+285 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\@types\\strip-json-comments'
+285 silly reify ]
+286 silly reify mark retired [
+286 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\acorn',
+286 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\acorn',
+286 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\acorn.cmd',
+286 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\acorn.ps1'
+286 silly reify ]
+287 silly reify mark retired [
+287 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\acorn-walk'
+287 silly reify ]
+288 silly reify mark retired [
+288 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\anymatch'
+288 silly reify ]
+289 silly reify mark retired [
+289 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\arg'
+289 silly reify ]
+290 silly reify mark retired [
+290 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\balanced-match'
+290 silly reify ]
+291 silly reify mark retired [
+291 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\binary-extensions'
+291 silly reify ]
+292 silly reify mark retired [
+292 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\brace-expansion'
+292 silly reify ]
+293 silly reify mark retired [
+293 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\braces'
+293 silly reify ]
+294 silly reify mark retired [
+294 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\buffer-from'
+294 silly reify ]
+295 silly reify mark retired [
+295 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\chokidar'
+295 silly reify ]
+296 silly reify mark retired [
+296 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\concat-map'
+296 silly reify ]
+297 silly reify mark retired [
+297 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\create-require'
+297 silly reify ]
+298 silly reify mark retired [
+298 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\diff'
+298 silly reify ]
+299 silly reify mark retired [
+299 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\dynamic-dedupe'
+299 silly reify ]
+300 silly reify mark retired [
+300 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\fill-range'
+300 silly reify ]
+301 silly reify mark retired [
+301 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\fs.realpath'
+301 silly reify ]
+302 silly reify mark retired [
+302 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\glob'
+302 silly reify ]
+303 silly reify mark retired [
+303 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\glob-parent'
+303 silly reify ]
+304 silly reify mark retired [
+304 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\inflight'
+304 silly reify ]
+305 silly reify mark retired [
+305 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\is-binary-path'
+305 silly reify ]
+306 silly reify mark retired [
+306 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\is-core-module'
+306 silly reify ]
+307 silly reify mark retired [
+307 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\is-extglob'
+307 silly reify ]
+308 silly reify mark retired [
+308 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\is-glob'
+308 silly reify ]
+309 silly reify mark retired [
+309 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\is-number'
+309 silly reify ]
+310 silly reify mark retired [
+310 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\make-error'
+310 silly reify ]
+311 silly reify mark retired [
+311 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\minimatch'
+311 silly reify ]
+312 silly reify mark retired [
+312 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\minimist'
+312 silly reify ]
+313 silly reify mark retired [
+313 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\mkdirp',
+313 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\mkdirp',
+313 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\mkdirp.cmd',
+313 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\mkdirp.ps1'
+313 silly reify ]
+314 silly reify mark retired [
+314 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\normalize-path'
+314 silly reify ]
+315 silly reify mark retired [
+315 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\once'
+315 silly reify ]
+316 silly reify mark retired [
+316 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\path-is-absolute'
+316 silly reify ]
+317 silly reify mark retired [
+317 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\path-parse'
+317 silly reify ]
+318 silly reify mark retired [
+318 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\picomatch'
+318 silly reify ]
+319 silly reify mark retired [
+319 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\readdirp'
+319 silly reify ]
+320 silly reify mark retired [
+320 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\resolve',
+320 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\resolve',
+320 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\resolve.cmd',
+320 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\resolve.ps1'
+320 silly reify ]
+321 silly reify mark retired [
+321 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\rimraf',
+321 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\rimraf',
+321 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\rimraf.cmd',
+321 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\rimraf.ps1'
+321 silly reify ]
+322 silly reify mark retired [
+322 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\source-map'
+322 silly reify ]
+323 silly reify mark retired [
+323 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\source-map-support'
+323 silly reify ]
+324 silly reify mark retired [
+324 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\strip-bom'
+324 silly reify ]
+325 silly reify mark retired [
+325 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\strip-json-comments'
+325 silly reify ]
+326 silly reify mark retired [
+326 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\supports-preserve-symlinks-flag'
+326 silly reify ]
+327 silly reify mark retired [
+327 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\to-regex-range'
+327 silly reify ]
+328 silly reify mark retired [
+328 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\tree-kill',
+328 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\tree-kill',
+328 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\tree-kill.cmd',
+328 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\tree-kill.ps1'
+328 silly reify ]
+329 silly reify mark retired [
+329 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\ts-node',
+329 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\ts-node',
+329 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\ts-node.cmd',
+329 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\ts-node.ps1',
+329 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\ts-node-cwd',
+329 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\ts-node-cwd.cmd',
+329 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\ts-node-cwd.ps1',
+329 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\ts-node-esm',
+329 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\ts-node-esm.cmd',
+329 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\ts-node-esm.ps1',
+329 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\ts-node-script',
+329 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\ts-node-script.cmd',
+329 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\ts-node-script.ps1',
+329 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\ts-node-transpile-only',
+329 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\ts-node-transpile-only.cmd',
+329 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\ts-node-transpile-only.ps1',
+329 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\ts-script',
+329 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\ts-script.cmd',
+329 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\ts-script.ps1'
+329 silly reify ]
+330 silly reify mark retired [
+330 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\ts-node-dev',
+330 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\ts-node-dev',
+330 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\ts-node-dev.cmd',
+330 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\ts-node-dev.ps1',
+330 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\tsnd',
+330 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\tsnd.cmd',
+330 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\tsnd.ps1'
+330 silly reify ]
+331 silly reify mark retired [
+331 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\tsconfig'
+331 silly reify ]
+332 silly reify mark retired [
+332 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\typescript',
+332 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\tsc',
+332 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\tsc.cmd',
+332 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\tsc.ps1',
+332 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\tsserver',
+332 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\tsserver.cmd',
+332 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\tsserver.ps1'
+332 silly reify ]
+333 silly reify mark retired [
+333 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\v8-compile-cache-lib'
+333 silly reify ]
+334 silly reify mark retired [
+334 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\wrappy'
+334 silly reify ]
+335 silly reify mark retired [
+335 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\xtend'
+335 silly reify ]
+336 silly reify mark retired [
+336 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\yn'
+336 silly reify ]
+337 silly reify moves {
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\@cspotcode\\source-map-support': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\@cspotcode\\.source-map-support-hiXZ70tw',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\@jridgewell\\resolve-uri': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\@jridgewell\\.resolve-uri-Lx9Y0gtG',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\@jridgewell\\sourcemap-codec': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\@jridgewell\\.sourcemap-codec-Z4gNoZ0s',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\@jridgewell\\trace-mapping': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\@jridgewell\\.trace-mapping-xUtzwtcK',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\@tsconfig\\node10': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\@tsconfig\\.node10-STva2Fj5',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\@tsconfig\\node12': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\@tsconfig\\.node12-xdyX3cT9',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\@tsconfig\\node14': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\@tsconfig\\.node14-GozfUBUb',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\@tsconfig\\node16': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\@tsconfig\\.node16-pdrHdPui',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\@types\\node': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\@types\\.node-wUFxAEQ8',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\@types\\strip-bom': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\@types\\.strip-bom-tVlP8JOY',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\@types\\strip-json-comments': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\@types\\.strip-json-comments-HlpyZoEc',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\acorn': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.acorn-tPhWW4bW',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\acorn': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\.acorn-IajHF7Ls',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\acorn.cmd': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\.acorn.cmd-9NFZMpwq',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\acorn.ps1': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\.acorn.ps1-GKFmG3cT',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\acorn-walk': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.acorn-walk-Ql0G98jR',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\anymatch': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.anymatch-3uF3CZgU',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\arg': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.arg-P8WSZCCk',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\balanced-match': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.balanced-match-XpRP841R',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\binary-extensions': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.binary-extensions-toXwSiNu',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\brace-expansion': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.brace-expansion-0uQXU7bo',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\braces': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.braces-gIEHkp46',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\buffer-from': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.buffer-from-1hRn9KgC',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\chokidar': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.chokidar-2u5prvTr',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\concat-map': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.concat-map-OlDynw7e',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\create-require': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.create-require-tKK1ZVvW',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\diff': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.diff-fOdoApMP',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\dynamic-dedupe': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.dynamic-dedupe-C7goWRvI',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\fill-range': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.fill-range-1OWcgBig',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\fs.realpath': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.fs.realpath-pdshrBBh',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\glob': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.glob-oZGGnIcn',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\glob-parent': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.glob-parent-WTHT3SYf',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\inflight': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.inflight-zBwmjWOS',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\is-binary-path': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.is-binary-path-bNYZddDj',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\is-core-module': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.is-core-module-bzDk2M2s',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\is-extglob': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.is-extglob-e9af69Tt',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\is-glob': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.is-glob-bJ60dHvL',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\is-number': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.is-number-riqphQyM',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\make-error': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.make-error-X6AQ7Dxn',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\minimatch': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.minimatch-3j8coRxz',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\minimist': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.minimist-YCSKYnLX',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\mkdirp': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.mkdirp-8HMHJkp0',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\mkdirp': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\.mkdirp-XjjYabWQ',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\mkdirp.cmd': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\.mkdirp.cmd-MrfPm27b',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\mkdirp.ps1': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\.mkdirp.ps1-Ypt1iXwh',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\normalize-path': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.normalize-path-ORz2cSUs',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\once': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.once-H9lpWw3j',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\path-is-absolute': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.path-is-absolute-Du6PrWFa',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\path-parse': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.path-parse-gNJ3MujU',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\picomatch': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.picomatch-Jpb9U54U',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\readdirp': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.readdirp-PtigHO3y',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\resolve': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.resolve-13PdfaMI',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\resolve': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\.resolve-Up0lLY82',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\resolve.cmd': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\.resolve.cmd-CeJbkFxL',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\resolve.ps1': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\.resolve.ps1-oTTG7S1c',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\rimraf': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.rimraf-DbvVkSKX',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\rimraf': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\.rimraf-HzfKoUUN',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\rimraf.cmd': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\.rimraf.cmd-sBdoQpFv',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\rimraf.ps1': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\.rimraf.ps1-1kOyNMyk',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\source-map': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.source-map-nTjB35k2',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\source-map-support': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.source-map-support-wjaDoq4A',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\strip-bom': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.strip-bom-v7SeWgFQ',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\strip-json-comments': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.strip-json-comments-OwGbTQJI',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\supports-preserve-symlinks-flag': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.supports-preserve-symlinks-flag-pV9Ocj3Q',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\to-regex-range': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.to-regex-range-swtmJ1WF',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\tree-kill': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.tree-kill-ShAfQTlI',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\tree-kill': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\.tree-kill-lsWZ631G',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\tree-kill.cmd': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\.tree-kill.cmd-hXnkRqFC',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\tree-kill.ps1': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\.tree-kill.ps1-D2IO1Zb4',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\ts-node': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.ts-node-Ccklsb9X',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\ts-node': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\.ts-node-wimCcoit',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\ts-node.cmd': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\.ts-node.cmd-qtQBlvzH',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\ts-node.ps1': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\.ts-node.ps1-F2cwSAfa',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\ts-node-cwd': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\.ts-node-cwd-xcMpNydS',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\ts-node-cwd.cmd': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\.ts-node-cwd.cmd-BtoLQQuX',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\ts-node-cwd.ps1': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\.ts-node-cwd.ps1-MbYVXQ46',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\ts-node-esm': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\.ts-node-esm-QmXjuAFn',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\ts-node-esm.cmd': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\.ts-node-esm.cmd-RYgQ2QqE',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\ts-node-esm.ps1': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\.ts-node-esm.ps1-YEij6YQ7',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\ts-node-script': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\.ts-node-script-lN9Hf42z',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\ts-node-script.cmd': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\.ts-node-script.cmd-SYhV4gA3',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\ts-node-script.ps1': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\.ts-node-script.ps1-Bqqn4937',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\ts-node-transpile-only': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\.ts-node-transpile-only-tdxB6uWZ',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\ts-node-transpile-only.cmd': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\.ts-node-transpile-only.cmd-95aCsI7v',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\ts-node-transpile-only.ps1': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\.ts-node-transpile-only.ps1-xxYiaBxz',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\ts-script': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\.ts-script-JsPYbYs5',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\ts-script.cmd': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\.ts-script.cmd-4BPKwswq',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\ts-script.ps1': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\.ts-script.ps1-PByGecmh',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\ts-node-dev': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.ts-node-dev-qX5ZkFiY',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\ts-node-dev': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\.ts-node-dev-RCKKWhyU',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\ts-node-dev.cmd': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\.ts-node-dev.cmd-t0maQ1HJ',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\ts-node-dev.ps1': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\.ts-node-dev.ps1-Byf3GCQA',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\tsnd': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\.tsnd-KbEPHgKZ',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\tsnd.cmd': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\.tsnd.cmd-Y8oTt9yx',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\tsnd.ps1': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\.tsnd.ps1-9daMhxR7',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\tsconfig': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.tsconfig-4HVL3oJN',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\typescript': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.typescript-zsRgpk6r',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\tsc': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\.tsc-L4s1ScC2',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\tsc.cmd': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\.tsc.cmd-xYovJ8xp',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\tsc.ps1': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\.tsc.ps1-3aIQTvgH',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\tsserver': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\.tsserver-mPfAAWUK',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\tsserver.cmd': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\.tsserver.cmd-L3aI7m9w',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\tsserver.ps1': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.bin\\.tsserver.ps1-FXpo27ZT',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\v8-compile-cache-lib': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.v8-compile-cache-lib-Qe2BU7r5',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\wrappy': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.wrappy-oLccU9PN',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\xtend': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.xtend-5wncEkXC',
+337 silly reify   'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\yn': 'C:\\Users\\CarlosS\\Desktop\\AtividadeTeste\\to-do-list\\node_modules\\.yn-LaVUZlst'
+337 silly reify }
+338 timing reify:retireShallow Completed in 226ms
+339 timing reify:createSparse Completed in 39ms
+340 timing reify:loadBundles Completed in 0ms
+341 silly audit bulk request {
+341 silly audit   'function-bind': [ '1.1.1' ],
+341 silly audit   has: [ '1.0.3' ],
+341 silly audit   inherits: [ '2.0.4' ],
+341 silly audit   cors: [ '2.8.5' ],
+341 silly audit   express: [ '4.18.1' ],
+341 silly audit   'object-assign': [ '4.1.1' ],
+341 silly audit   vary: [ '1.1.2' ],
+341 silly audit   accepts: [ '1.3.8' ],
+341 silly audit   'array-flatten': [ '1.1.1' ],
+341 silly audit   'body-parser': [ '1.20.0' ],
+341 silly audit   'content-disposition': [ '0.5.4' ],
+341 silly audit   'content-type': [ '1.0.4' ],
+341 silly audit   cookie: [ '0.5.0' ],
+341 silly audit   'cookie-signature': [ '1.0.6' ],
+341 silly audit   debug: [ '2.6.9' ],
+341 silly audit   depd: [ '2.0.0' ],
+341 silly audit   encodeurl: [ '1.0.2' ],
+341 silly audit   'escape-html': [ '1.0.3' ],
+341 silly audit   etag: [ '1.8.1' ],
+341 silly audit   finalhandler: [ '1.2.0' ],
+341 silly audit   fresh: [ '0.5.2' ],
+341 silly audit   'http-errors': [ '2.0.0' ],
+341 silly audit   'merge-descriptors': [ '1.0.1' ],
+341 silly audit   methods: [ '1.1.2' ],
+341 silly audit   'on-finished': [ '2.4.1' ],
+341 silly audit   parseurl: [ '1.3.3' ],
+341 silly audit   'path-to-regexp': [ '0.1.7' ],
+341 silly audit   'proxy-addr': [ '2.0.7' ],
+341 silly audit   qs: [ '6.10.3' ],
+341 silly audit   'range-parser': [ '1.2.1' ],
+341 silly audit   'safe-buffer': [ '5.2.1' ],
+341 silly audit   send: [ '0.18.0' ],
+341 silly audit   'serve-static': [ '1.15.0' ],
+341 silly audit   setprototypeof: [ '1.2.0' ],
+341 silly audit   statuses: [ '2.0.1' ],
+341 silly audit   'type-is': [ '1.6.18' ],
+341 silly audit   'utils-merge': [ '1.0.1' ],
+341 silly audit   'mime-types': [ '2.1.35' ],
+341 silly audit   negotiator: [ '0.6.3' ],
+341 silly audit   bytes: [ '3.1.2' ],
+341 silly audit   destroy: [ '1.2.0' ],
+341 silly audit   'iconv-lite': [ '0.4.24' ],
+341 silly audit   'raw-body': [ '2.5.1' ],
+341 silly audit   unpipe: [ '1.0.0' ],
+341 silly audit   ms: [ '2.0.0', '2.1.3' ],
+341 silly audit   toidentifier: [ '1.0.1' ],
+341 silly audit   'safer-buffer': [ '2.1.2' ],
+341 silly audit   'mime-db': [ '1.52.0' ],
+341 silly audit   'ee-first': [ '1.1.1' ],
+341 silly audit   forwarded: [ '0.2.0' ],
+341 silly audit   'ipaddr.js': [ '1.9.1' ],
+341 silly audit   'side-channel': [ '1.0.4' ],
+341 silly audit   mime: [ '1.6.0' ],
+341 silly audit   'call-bind': [ '1.0.2' ],
+341 silly audit   'get-intrinsic': [ '1.1.2' ],
+341 silly audit   'object-inspect': [ '1.12.2' ],
+341 silly audit   'has-symbols': [ '1.0.3' ],
+341 silly audit   'media-typer': [ '0.3.0' ]
+341 silly audit }
+342 silly tarball no local data for media-typer@https://registry.npmjs.org/media-typer/-/media-typer-0.3.0.tgz. Extracting by manifest.
+343 silly tarball no local data for has-symbols@https://registry.npmjs.org/has-symbols/-/has-symbols-1.0.3.tgz. Extracting by manifest.
+344 silly tarball no local data for object-inspect@https://registry.npmjs.org/object-inspect/-/object-inspect-1.12.2.tgz. Extracting by manifest.
+345 silly tarball no local data for get-intrinsic@https://registry.npmjs.org/get-intrinsic/-/get-intrinsic-1.1.2.tgz. Extracting by manifest.
+346 silly tarball no local data for mime@https://registry.npmjs.org/mime/-/mime-1.6.0.tgz. Extracting by manifest.
+347 silly tarball no local data for call-bind@https://registry.npmjs.org/call-bind/-/call-bind-1.0.2.tgz. Extracting by manifest.
+348 silly tarball no local data for side-channel@https://registry.npmjs.org/side-channel/-/side-channel-1.0.4.tgz. Extracting by manifest.
+349 silly tarball no local data for ipaddr.js@https://registry.npmjs.org/ipaddr.js/-/ipaddr.js-1.9.1.tgz. Extracting by manifest.
+350 silly tarball no local data for forwarded@https://registry.npmjs.org/forwarded/-/forwarded-0.2.0.tgz. Extracting by manifest.
+351 silly tarball no local data for mime-db@https://registry.npmjs.org/mime-db/-/mime-db-1.52.0.tgz. Extracting by manifest.
+352 silly tarball no local data for ee-first@https://registry.npmjs.org/ee-first/-/ee-first-1.1.1.tgz. Extracting by manifest.
+353 silly tarball no local data for safer-buffer@https://registry.npmjs.org/safer-buffer/-/safer-buffer-2.1.2.tgz. Extracting by manifest.
+354 silly tarball no local data for toidentifier@https://registry.npmjs.org/toidentifier/-/toidentifier-1.0.1.tgz. Extracting by manifest.
+355 silly tarball no local data for ms@https://registry.npmjs.org/ms/-/ms-2.0.0.tgz. Extracting by manifest.
+356 silly tarball no local data for unpipe@https://registry.npmjs.org/unpipe/-/unpipe-1.0.0.tgz. Extracting by manifest.
+357 silly tarball no local data for raw-body@https://registry.npmjs.org/raw-body/-/raw-body-2.5.1.tgz. Extracting by manifest.
+358 silly tarball no local data for iconv-lite@https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.4.24.tgz. Extracting by manifest.
+359 silly tarball no local data for bytes@https://registry.npmjs.org/bytes/-/bytes-3.1.2.tgz. Extracting by manifest.
+360 silly tarball no local data for destroy@https://registry.npmjs.org/destroy/-/destroy-1.2.0.tgz. Extracting by manifest.
+361 silly tarball no local data for negotiator@https://registry.npmjs.org/negotiator/-/negotiator-0.6.3.tgz. Extracting by manifest.
+362 silly tarball no local data for mime-types@https://registry.npmjs.org/mime-types/-/mime-types-2.1.35.tgz. Extracting by manifest.
+363 silly tarball no local data for utils-merge@https://registry.npmjs.org/utils-merge/-/utils-merge-1.0.1.tgz. Extracting by manifest.
+364 silly tarball no local data for type-is@https://registry.npmjs.org/type-is/-/type-is-1.6.18.tgz. Extracting by manifest.
+365 silly tarball no local data for statuses@https://registry.npmjs.org/statuses/-/statuses-2.0.1.tgz. Extracting by manifest.
+366 silly tarball no local data for setprototypeof@https://registry.npmjs.org/setprototypeof/-/setprototypeof-1.2.0.tgz. Extracting by manifest.
+367 silly tarball no local data for serve-static@https://registry.npmjs.org/serve-static/-/serve-static-1.15.0.tgz. Extracting by manifest.
+368 silly tarball no local data for send@https://registry.npmjs.org/send/-/send-0.18.0.tgz. Extracting by manifest.
+369 silly tarball no local data for safe-buffer@https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.2.1.tgz. Extracting by manifest.
+370 silly tarball no local data for range-parser@https://registry.npmjs.org/range-parser/-/range-parser-1.2.1.tgz. Extracting by manifest.
+371 silly tarball no local data for qs@https://registry.npmjs.org/qs/-/qs-6.10.3.tgz. Extracting by manifest.
+372 silly tarball no local data for proxy-addr@https://registry.npmjs.org/proxy-addr/-/proxy-addr-2.0.7.tgz. Extracting by manifest.
+373 silly tarball no local data for path-to-regexp@https://registry.npmjs.org/path-to-regexp/-/path-to-regexp-0.1.7.tgz. Extracting by manifest.
+374 silly tarball no local data for parseurl@https://registry.npmjs.org/parseurl/-/parseurl-1.3.3.tgz. Extracting by manifest.
+375 silly tarball no local data for on-finished@https://registry.npmjs.org/on-finished/-/on-finished-2.4.1.tgz. Extracting by manifest.
+376 silly tarball no local data for methods@https://registry.npmjs.org/methods/-/methods-1.1.2.tgz. Extracting by manifest.
+377 silly tarball no local data for merge-descriptors@https://registry.npmjs.org/merge-descriptors/-/merge-descriptors-1.0.1.tgz. Extracting by manifest.
+378 silly tarball no local data for http-errors@https://registry.npmjs.org/http-errors/-/http-errors-2.0.0.tgz. Extracting by manifest.
+379 silly tarball no local data for fresh@https://registry.npmjs.org/fresh/-/fresh-0.5.2.tgz. Extracting by manifest.
+380 silly tarball no local data for finalhandler@https://registry.npmjs.org/finalhandler/-/finalhandler-1.2.0.tgz. Extracting by manifest.
+381 silly tarball no local data for etag@https://registry.npmjs.org/etag/-/etag-1.8.1.tgz. Extracting by manifest.
+382 silly tarball no local data for escape-html@https://registry.npmjs.org/escape-html/-/escape-html-1.0.3.tgz. Extracting by manifest.
+383 silly tarball no local data for encodeurl@https://registry.npmjs.org/encodeurl/-/encodeurl-1.0.2.tgz. Extracting by manifest.
+384 silly tarball no local data for depd@https://registry.npmjs.org/depd/-/depd-2.0.0.tgz. Extracting by manifest.
+385 silly tarball no local data for debug@https://registry.npmjs.org/debug/-/debug-2.6.9.tgz. Extracting by manifest.
+386 silly tarball no local data for cookie-signature@https://registry.npmjs.org/cookie-signature/-/cookie-signature-1.0.6.tgz. Extracting by manifest.
+387 silly tarball no local data for cookie@https://registry.npmjs.org/cookie/-/cookie-0.5.0.tgz. Extracting by manifest.
+388 silly tarball no local data for content-type@https://registry.npmjs.org/content-type/-/content-type-1.0.4.tgz. Extracting by manifest.
+389 silly tarball no local data for content-disposition@https://registry.npmjs.org/content-disposition/-/content-disposition-0.5.4.tgz. Extracting by manifest.
+390 silly tarball no local data for body-parser@https://registry.npmjs.org/body-parser/-/body-parser-1.20.0.tgz. Extracting by manifest.
+391 silly tarball no local data for array-flatten@https://registry.npmjs.org/array-flatten/-/array-flatten-1.1.1.tgz. Extracting by manifest.
+392 silly tarball no local data for accepts@https://registry.npmjs.org/accepts/-/accepts-1.3.8.tgz. Extracting by manifest.
+393 silly tarball no local data for vary@https://registry.npmjs.org/vary/-/vary-1.1.2.tgz. Extracting by manifest.
+394 silly tarball no local data for express@https://registry.npmjs.org/express/-/express-4.18.1.tgz. Extracting by manifest.
+395 silly tarball no local data for object-assign@https://registry.npmjs.org/object-assign/-/object-assign-4.1.1.tgz. Extracting by manifest.
+396 silly tarball no local data for cors@https://registry.npmjs.org/cors/-/cors-2.8.5.tgz. Extracting by manifest.
+397 silly tarball no local data for ms@https://registry.npmjs.org/ms/-/ms-2.1.3.tgz. Extracting by manifest.
+398 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 397ms
+399 timing auditReport:getReport Completed in 401ms
+400 silly audit report {}
+401 timing auditReport:init Completed in 0ms
+402 timing reify:audit Completed in 403ms
+403 http fetch GET 200 https://registry.npmjs.org/forwarded/-/forwarded-0.2.0.tgz 1044ms (cache miss)
+404 http fetch GET 200 https://registry.npmjs.org/ms/-/ms-2.0.0.tgz 1086ms (cache miss)
+405 timing reifyNode:node_modules/ms Completed in 1168ms
+406 http fetch GET 200 https://registry.npmjs.org/side-channel/-/side-channel-1.0.4.tgz 1262ms (cache miss)
+407 http fetch GET 200 https://registry.npmjs.org/utils-merge/-/utils-merge-1.0.1.tgz 1228ms (cache miss)
+408 http fetch GET 200 https://registry.npmjs.org/toidentifier/-/toidentifier-1.0.1.tgz 1256ms (cache miss)
+409 http fetch GET 200 https://registry.npmjs.org/destroy/-/destroy-1.2.0.tgz 1261ms (cache miss)
+410 timing reifyNode:node_modules/destroy Completed in 1356ms
+411 http fetch GET 200 https://registry.npmjs.org/media-typer/-/media-typer-0.3.0.tgz 1327ms (cache miss)
+412 http fetch GET 200 https://registry.npmjs.org/ee-first/-/ee-first-1.1.1.tgz 1365ms (cache miss)
+413 timing reifyNode:node_modules/ee-first Completed in 1440ms
+414 http fetch GET 200 https://registry.npmjs.org/unpipe/-/unpipe-1.0.0.tgz 1353ms (cache miss)
+415 timing reifyNode:node_modules/toidentifier Completed in 1468ms
+416 timing reifyNode:node_modules/forwarded Completed in 1509ms
+417 http fetch GET 200 https://registry.npmjs.org/mime-types/-/mime-types-2.1.35.tgz 1413ms (cache miss)
+418 http fetch GET 200 https://registry.npmjs.org/type-is/-/type-is-1.6.18.tgz 2108ms (cache miss)
+419 http fetch GET 200 https://registry.npmjs.org/setprototypeof/-/setprototypeof-1.2.0.tgz 2111ms (cache miss)
+420 timing reifyNode:node_modules/unpipe Completed in 2218ms
+421 http fetch GET 200 https://registry.npmjs.org/ipaddr.js/-/ipaddr.js-1.9.1.tgz 2155ms (cache miss)
+422 timing reifyNode:node_modules/media-typer Completed in 2223ms
+423 http fetch GET 200 https://registry.npmjs.org/escape-html/-/escape-html-1.0.3.tgz 2077ms (cache miss)
+424 timing reifyNode:node_modules/utils-merge Completed in 2234ms
+425 http fetch GET 200 https://registry.npmjs.org/bytes/-/bytes-3.1.2.tgz 2142ms (cache miss)
+426 http fetch GET 200 https://registry.npmjs.org/methods/-/methods-1.1.2.tgz 2102ms (cache miss)
+427 http fetch GET 200 https://registry.npmjs.org/on-finished/-/on-finished-2.4.1.tgz 2105ms (cache miss)
+428 http fetch GET 200 https://registry.npmjs.org/range-parser/-/range-parser-1.2.1.tgz 2125ms (cache miss)
+429 http fetch GET 200 https://registry.npmjs.org/http-errors/-/http-errors-2.0.0.tgz 2101ms (cache miss)
+430 http fetch GET 200 https://registry.npmjs.org/cookie-signature/-/cookie-signature-1.0.6.tgz 2094ms (cache miss)
+431 timing reifyNode:node_modules/escape-html Completed in 2272ms
+432 timing reifyNode:node_modules/type-is Completed in 2275ms
+433 http fetch GET 200 https://registry.npmjs.org/fresh/-/fresh-0.5.2.tgz 2135ms (cache miss)
+434 http fetch GET 200 https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.2.1.tgz 2178ms (cache miss)
+435 http fetch GET 200 https://registry.npmjs.org/encodeurl/-/encodeurl-1.0.2.tgz 2142ms (cache miss)
+436 timing reifyNode:node_modules/mime-types Completed in 2291ms
+437 timing reifyNode:node_modules/bytes Completed in 2338ms
+438 http fetch GET 200 https://registry.npmjs.org/body-parser/-/body-parser-1.20.0.tgz 2179ms (cache miss)
+439 timing reifyNode:node_modules/ipaddr.js Completed in 2341ms
+440 timing reifyNode:node_modules/methods Completed in 2350ms
+441 http fetch GET 200 https://registry.npmjs.org/serve-static/-/serve-static-1.15.0.tgz 2255ms (cache miss)
+442 timing reifyNode:node_modules/range-parser Completed in 2365ms
+443 http fetch GET 200 https://registry.npmjs.org/parseurl/-/parseurl-1.3.3.tgz 2238ms (cache miss)
+444 timing reifyNode:node_modules/parseurl Completed in 2366ms
+445 http fetch GET 200 https://registry.npmjs.org/merge-descriptors/-/merge-descriptors-1.0.1.tgz 2231ms (cache miss)
+446 timing reifyNode:node_modules/merge-descriptors Completed in 2367ms
+447 http fetch GET 200 https://registry.npmjs.org/etag/-/etag-1.8.1.tgz 2227ms (cache miss)
+448 http fetch GET 200 https://registry.npmjs.org/content-type/-/content-type-1.0.4.tgz 2214ms (cache miss)
+449 http fetch GET 200 https://registry.npmjs.org/array-flatten/-/array-flatten-1.1.1.tgz 2209ms (cache miss)
+450 timing reifyNode:node_modules/array-flatten Completed in 2370ms
+451 http fetch GET 200 https://registry.npmjs.org/content-disposition/-/content-disposition-0.5.4.tgz 2214ms (cache miss)
+452 http fetch GET 200 https://registry.npmjs.org/object-assign/-/object-assign-4.1.1.tgz 2194ms (cache miss)
+453 timing reifyNode:node_modules/object-assign Completed in 2371ms
+454 timing reifyNode:node_modules/on-finished Completed in 2374ms
+455 http fetch GET 200 https://registry.npmjs.org/path-to-regexp/-/path-to-regexp-0.1.7.tgz 2257ms (cache miss)
+456 timing reifyNode:node_modules/path-to-regexp Completed in 2375ms
+457 timing reifyNode:node_modules/fresh Completed in 2376ms
+458 timing reifyNode:node_modules/encodeurl Completed in 2395ms
+459 http fetch GET 200 https://registry.npmjs.org/proxy-addr/-/proxy-addr-2.0.7.tgz 2298ms (cache miss)
+460 http fetch GET 200 https://registry.npmjs.org/accepts/-/accepts-1.3.8.tgz 2244ms (cache miss)
+461 timing reifyNode:node_modules/serve-static Completed in 2417ms
+462 http fetch GET 200 https://registry.npmjs.org/safer-buffer/-/safer-buffer-2.1.2.tgz 2343ms (cache miss)
+463 timing reifyNode:node_modules/http-errors Completed in 2448ms
+464 timing reifyNode:node_modules/safe-buffer Completed in 2451ms
+465 timing reifyNode:node_modules/content-type Completed in 2450ms
+466 http fetch GET 200 https://registry.npmjs.org/raw-body/-/raw-body-2.5.1.tgz 2372ms (cache miss)
+467 http fetch GET 200 https://registry.npmjs.org/ms/-/ms-2.1.3.tgz 2281ms (cache miss)
+468 timing reifyNode:node_modules/send/node_modules/ms Completed in 2463ms
+469 timing reifyNode:node_modules/etag Completed in 2469ms
+470 timing reifyNode:node_modules/cookie-signature Completed in 2470ms
+471 timing reifyNode:node_modules/setprototypeof Completed in 2472ms
+472 timing reifyNode:node_modules/proxy-addr Completed in 2478ms
+473 timing reifyNode:node_modules/safer-buffer Completed in 2481ms
+474 timing reifyNode:node_modules/accepts Completed in 2479ms
+475 timing reifyNode:node_modules/content-disposition Completed in 2490ms
+476 http fetch GET 200 https://registry.npmjs.org/statuses/-/statuses-2.0.1.tgz 2389ms (cache miss)
+477 http fetch GET 200 https://registry.npmjs.org/finalhandler/-/finalhandler-1.2.0.tgz 2351ms (cache miss)
+478 http fetch GET 200 https://registry.npmjs.org/send/-/send-0.18.0.tgz 2385ms (cache miss)
+479 timing reifyNode:node_modules/raw-body Completed in 2496ms
+480 http fetch GET 200 https://registry.npmjs.org/cors/-/cors-2.8.5.tgz 2315ms (cache miss)
+481 http fetch GET 200 https://registry.npmjs.org/cookie/-/cookie-0.5.0.tgz 2362ms (cache miss)
+482 http fetch GET 200 https://registry.npmjs.org/depd/-/depd-2.0.0.tgz 2371ms (cache miss)
+483 http fetch GET 200 https://registry.npmjs.org/vary/-/vary-1.1.2.tgz 2347ms (cache miss)
+484 timing reifyNode:node_modules/vary Completed in 2519ms
+485 timing reifyNode:node_modules/statuses Completed in 2523ms
+486 timing reifyNode:node_modules/finalhandler Completed in 2522ms
+487 timing reifyNode:node_modules/send Completed in 2523ms
+488 timing reifyNode:node_modules/cookie Completed in 2527ms
+489 timing reifyNode:node_modules/cors Completed in 2537ms
+490 timing reifyNode:node_modules/depd Completed in 2539ms
+491 http fetch GET 200 https://registry.npmjs.org/negotiator/-/negotiator-0.6.3.tgz 2465ms (cache miss)
+492 http fetch GET 200 https://registry.npmjs.org/get-intrinsic/-/get-intrinsic-1.1.2.tgz 2506ms (cache miss)
+493 http fetch GET 200 https://registry.npmjs.org/mime/-/mime-1.6.0.tgz 2530ms (cache miss)
+494 timing reifyNode:node_modules/get-intrinsic Completed in 2590ms
+495 timing reifyNode:node_modules/negotiator Completed in 2591ms
+496 timing reifyNode:node_modules/side-channel Completed in 2602ms
+497 http fetch GET 200 https://registry.npmjs.org/call-bind/-/call-bind-1.0.2.tgz 2558ms (cache miss)
+498 timing reifyNode:node_modules/mime Completed in 2623ms
+499 timing reifyNode:node_modules/call-bind Completed in 2627ms
+500 http fetch GET 200 https://registry.npmjs.org/has-symbols/-/has-symbols-1.0.3.tgz 2591ms (cache miss)
+501 http fetch GET 200 https://registry.npmjs.org/mime-db/-/mime-db-1.52.0.tgz 2583ms (cache miss)
+502 timing reifyNode:node_modules/mime-db Completed in 2653ms
+503 timing reifyNode:node_modules/has-symbols Completed in 2658ms
+504 timing reifyNode:node_modules/body-parser Completed in 2691ms
+505 http fetch GET 200 https://registry.npmjs.org/debug/-/debug-2.6.9.tgz 2610ms (cache miss)
+506 timing reifyNode:node_modules/debug Completed in 2759ms
+507 http fetch GET 200 https://registry.npmjs.org/express/-/express-4.18.1.tgz 2606ms (cache miss)
+508 timing reifyNode:node_modules/express Completed in 2781ms
+509 http fetch GET 200 https://registry.npmjs.org/qs/-/qs-6.10.3.tgz 2690ms (cache miss)
+510 timing reifyNode:node_modules/qs Completed in 2805ms
+511 http fetch GET 200 https://registry.npmjs.org/object-inspect/-/object-inspect-1.12.2.tgz 2814ms (cache miss)
+512 timing reifyNode:node_modules/object-inspect Completed in 2872ms
+513 http fetch GET 200 https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.4.24.tgz 2804ms (cache miss)
+514 timing reifyNode:node_modules/iconv-lite Completed in 2895ms
+515 timing reify:unpack Completed in 2898ms
+516 timing reify:unretire Completed in 1ms
+517 timing build:queue Completed in 5ms
+518 timing build:link:node_modules/mime Completed in 24ms
+519 timing build:link Completed in 24ms
+520 timing build:deps Completed in 30ms
+521 timing build Completed in 31ms
+522 timing reify:build Completed in 32ms
+523 timing reify:trash Completed in 450ms
+524 timing reify:save Completed in 66ms
+525 timing reify Completed in 6693ms
+526 silly ADD node_modules/media-typer
+527 silly ADD node_modules/has-symbols
+528 silly ADD node_modules/object-inspect
+529 silly ADD node_modules/get-intrinsic
+530 silly ADD node_modules/call-bind
+531 silly ADD node_modules/mime
+532 silly ADD node_modules/side-channel
+533 silly ADD node_modules/ipaddr.js
+534 silly ADD node_modules/forwarded
+535 silly ADD node_modules/ee-first
+536 silly ADD node_modules/mime-db
+537 silly ADD node_modules/safer-buffer
+538 silly ADD node_modules/toidentifier
+539 silly ADD node_modules/ms
+540 silly ADD node_modules/unpipe
+541 silly ADD node_modules/raw-body
+542 silly ADD node_modules/iconv-lite
+543 silly ADD node_modules/destroy
+544 silly ADD node_modules/bytes
+545 silly ADD node_modules/negotiator
+546 silly ADD node_modules/mime-types
+547 silly ADD node_modules/utils-merge
+548 silly ADD node_modules/type-is
+549 silly ADD node_modules/statuses
+550 silly ADD node_modules/setprototypeof
+551 silly ADD node_modules/serve-static
+552 silly ADD node_modules/send
+553 silly ADD node_modules/send/node_modules/ms
+554 silly ADD node_modules/safe-buffer
+555 silly ADD node_modules/range-parser
+556 silly ADD node_modules/qs
+557 silly ADD node_modules/proxy-addr
+558 silly ADD node_modules/path-to-regexp
+559 silly ADD node_modules/parseurl
+560 silly ADD node_modules/on-finished
+561 silly ADD node_modules/methods
+562 silly ADD node_modules/merge-descriptors
+563 silly ADD node_modules/http-errors
+564 silly ADD node_modules/fresh
+565 silly ADD node_modules/finalhandler
+566 silly ADD node_modules/etag
+567 silly ADD node_modules/escape-html
+568 silly ADD node_modules/encodeurl
+569 silly ADD node_modules/depd
+570 silly ADD node_modules/debug
+571 silly ADD node_modules/cookie-signature
+572 silly ADD node_modules/cookie
+573 silly ADD node_modules/content-type
+574 silly ADD node_modules/content-disposition
+575 silly ADD node_modules/body-parser
+576 silly ADD node_modules/array-flatten
+577 silly ADD node_modules/accepts
+578 silly ADD node_modules/vary
+579 silly ADD node_modules/object-assign
+580 silly ADD node_modules/express
+581 silly ADD node_modules/cors
+582 silly REMOVE node_modules/yn
+583 silly REMOVE node_modules/xtend
+584 silly REMOVE node_modules/wrappy
+585 silly REMOVE node_modules/v8-compile-cache-lib
+586 silly REMOVE node_modules/typescript
+587 silly REMOVE node_modules/tsconfig
+588 silly REMOVE node_modules/ts-node-dev
+589 silly REMOVE node_modules/ts-node
+590 silly REMOVE node_modules/tree-kill
+591 silly REMOVE node_modules/to-regex-range
+592 silly REMOVE node_modules/supports-preserve-symlinks-flag
+593 silly REMOVE node_modules/strip-json-comments
+594 silly REMOVE node_modules/strip-bom
+595 silly REMOVE node_modules/source-map-support
+596 silly REMOVE node_modules/source-map
+597 silly REMOVE node_modules/rimraf
+598 silly REMOVE node_modules/resolve
+599 silly REMOVE node_modules/readdirp
+600 silly REMOVE node_modules/picomatch
+601 silly REMOVE node_modules/path-parse
+602 silly REMOVE node_modules/path-is-absolute
+603 silly REMOVE node_modules/once
+604 silly REMOVE node_modules/normalize-path
+605 silly REMOVE node_modules/mkdirp
+606 silly REMOVE node_modules/minimist
+607 silly REMOVE node_modules/minimatch
+608 silly REMOVE node_modules/make-error
+609 silly REMOVE node_modules/is-number
+610 silly REMOVE node_modules/is-glob
+611 silly REMOVE node_modules/is-extglob
+612 silly REMOVE node_modules/is-core-module
+613 silly REMOVE node_modules/is-binary-path
+614 silly REMOVE node_modules/inflight
+615 silly REMOVE node_modules/glob-parent
+616 silly REMOVE node_modules/glob
+617 silly REMOVE node_modules/fs.realpath
+618 silly REMOVE node_modules/fill-range
+619 silly REMOVE node_modules/dynamic-dedupe
+620 silly REMOVE node_modules/diff
+621 silly REMOVE node_modules/create-require
+622 silly REMOVE node_modules/concat-map
+623 silly REMOVE node_modules/chokidar
+624 silly REMOVE node_modules/buffer-from
+625 silly REMOVE node_modules/braces
+626 silly REMOVE node_modules/brace-expansion
+627 silly REMOVE node_modules/binary-extensions
+628 silly REMOVE node_modules/balanced-match
+629 silly REMOVE node_modules/arg
+630 silly REMOVE node_modules/anymatch
+631 silly REMOVE node_modules/acorn-walk
+632 silly REMOVE node_modules/acorn
+633 silly REMOVE node_modules/@types/strip-json-comments
+634 silly REMOVE node_modules/@types/strip-bom
+635 silly REMOVE node_modules/@types/node
+636 silly REMOVE node_modules/@tsconfig/node16
+637 silly REMOVE node_modules/@tsconfig/node14
+638 silly REMOVE node_modules/@tsconfig/node12
+639 silly REMOVE node_modules/@tsconfig/node10
+640 silly REMOVE node_modules/@jridgewell/trace-mapping
+641 silly REMOVE node_modules/@jridgewell/sourcemap-codec
+642 silly REMOVE node_modules/@jridgewell/resolve-uri
+643 silly REMOVE node_modules/@cspotcode/source-map-support
+644 timing command:i Completed in 6707ms
+645 verbose exit 0
+646 timing npm Completed in 6951ms
+647 info ok
